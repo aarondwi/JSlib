@@ -1,0 +1,12 @@
+1. indexOf and includes check if simple types, by value,if complex types, by references
+2. typeof sucks, use Object.prototype.toString.call(something)
+3. Always beware and check arguments when using built-in function. Passing built-in function blindly will be fatal and hard to debug
+4. The magic of {}+{}, []+[], {}+[], []+{}
+5. 10.toString() ---> error, 10..toString() ---> '10', 0x10.toString ---> 16, 0x10..toString() ---> error
+6. Anything can be thrown, only seen as 'uncaught `something`', and anything can be caught
+7. null==undefined => true but null===undefined => false, so always use '==='
+8. check null with '===' only evaluates true if is is set to null explicitly.
+9. parseFloat and parseInt blindly converts argument
+10. Object as hashmap, sometimes annoying, most of the time useful
+11. parseInt does not force correctness, instead it tries to parse what it is and not throwing error
+Extra;(not js specific) dynamic languages suffer from precision (try 0.1+0.2 or 0.1+0.7)

@@ -1,0 +1,1 @@
+Just want to copy some basic functionality of popular libraries, before going into their code
